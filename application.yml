@@ -1,3 +1,9 @@
-product:
-  id: 520
-  productName: 哈密瓜
+spring:
+  application:
+    name: config
+eureka:
+  client:
+      serviceUrl:
+        defaultZone: http://localhost:8761/eureka/
+server:
+  port: 8888
